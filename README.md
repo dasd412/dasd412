@@ -3,12 +3,6 @@
 
 ***
 
-Algorithm
-
-[![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=dasd412)](https://solved.ac/dasd412)
-
-***
-
 <div align=center><h1>📚 STACKS</h1></div>
 
 <div align=center> 
