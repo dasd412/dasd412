@@ -1,8 +1,35 @@
+# About Me
+
+## Backend Engineer who thinks in systems, not just code
+
+- Backend developer responsible for the entire lifecycle from MSA architecture design to operations
+- Specializes in applying computer science principles to solve real-world technical challenges
 
 
-<div align=center><h1>📚 STACKS</h1></div>
+### Architecture Design & Implementation
 
-<div align=center> 
+- Designed and implemented centralized MSA architecture integrating 10+ microservices
+- Developed common libraries for MSA server construction
+- Built JWT-based RBAC/ABAC hybrid authentication system
+- Established gRPC-based inter-service communication in MSA environment
+- Designed scalable library architecture for hardware communication protocols
+
+
+### System Optimization
+
+- Designed and implemented scheduler systems processing 170K+ daily data records
+- Analyzed and resolved transaction deadlock issues from MySQL locking mechanism perspective
+
+
+### Business Impact
+
+- Early team member at seed-stage startup: designed & built 70% of backend infrastructure, contributed to $4M TIPS investment
+- Enhanced team productivity through 150+ test cases and 25+ technical documentation
+***
+
+<div><h1>📚 STACKS</h1></div>
+
+<div> 
 
 ## Backend
 <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java&logoColor=white"> 
