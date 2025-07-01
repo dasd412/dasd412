@@ -8,7 +8,7 @@
 
 ### Architecture Design & Implementation
 
-- Designed and implemented centralized MSA architecture integrating 10+ microservices
+- Designed and implemented MSA architecture including 10+ microservices
 - Developed common libraries for MSA server construction
 - Built JWT-based RBAC/ABAC hybrid authentication system
 - Established gRPC-based inter-service communication in MSA environment
