@@ -1,30 +1,18 @@
 # About Me
 
-## Backend Engineer who thinks in systems, not just code
+## Engineer who designs and operates scalable backend systems with system-wide thinking
+- Have experience in building and operating MSA-based systems in Kubernetes environments and processing large-scale data.
+- Specialize in creatively solving technical problems by applying computer science principles to practical work.
 
-- Backend developer responsible for the entire lifecycle from MSA architecture design to operations
-- Specializes in applying computer science principles to solve real-world technical challenges
+## Architecture design and system optimization
+- Designed RBAC/ABAC hybrid authentication system to consistently manage access control for over 10 sites
+- Analyzed transaction deadlock issues in scheduler that updates 170,000 records daily and achieved 0% deadlock occurrence rate
+- Built microservice communication based on gRPC
 
+## Business contribution
+- Contributed to securing 500 million KRW TIPS investment as an early member of seed-level startup through backend design and implementation
+- Completed urgent projects and met customer deadlines by adjusting work priorities through collaboration between planners and developers
 
-### Architecture Design & Implementation
-
-- Designed and implemented MSA architecture including 10+ microservices
-- Developed common libraries for MSA server construction
-- Built JWT-based RBAC/ABAC hybrid authentication system
-- Established gRPC-based inter-service communication in MSA environment
-- Designed scalable library architecture for hardware communication protocols
-
-
-### System Optimization
-
-- Designed and implemented scheduler systems processing 170K+ daily data records
-- Analyzed and resolved transaction deadlock issues from MySQL locking mechanism perspective
-
-
-### Business Impact
-
-- Early team member at seed-stage startup: designed & built 70% of backend infrastructure, contributed to $4M TIPS investment
-- Enhanced team productivity through 150+ test cases and 25+ technical documentation
 ***
 
 <div><h1>📚 STACKS</h1></div>
