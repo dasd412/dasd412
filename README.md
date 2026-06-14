@@ -19,8 +19,8 @@
 - Migrated a **legacy authentication scheme to a Keycloak-based standard**, with zero-downtime migration of all existing users, and established a dedicated authentication service
 - Drove a **stack-wide synchronous → asynchronous migration** to support a new agentic-AI service
 - Led a **ScyllaDB → ClickHouse migration to production** as part of a data-engineering architecture transition
-- Eliminated large-data **OOM with streaming**: cut server peak memory ** single request (previously OOM-killing a 1Gi pod) complete in **611MB**,and optimized **large-scale real-time time-series aggregation from 79s to 452ms** — all backed by memray / benchmark measurement
-- Expanded the test safety net from **72 to 958+ tests** and introduced *dapter)** across services; extracted a shared core library distributed via git subtree
+- Eliminated large-data **OOM with streaming**: cut server peak memory single request (previously OOM-killing a 1Gi pod) complete in **611MB**,and optimized **large-scale real-time time-series aggregation from 79s to 452ms** — all backed by memray / benchmark measurement
+- Expanded the test safety net from **72 to 958+ tests** and introduced *adapter)* across services; extracted a shared core library distributed via git subtree
 - Built an **in-house agentic-AI service from scratch** — LangGraph ReAct agent, hybrid vector + graph RAG, hexagonal architecture, MCP tool governance
 
 ## AI-augmented engineering
