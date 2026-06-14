@@ -3,6 +3,7 @@
 ## Engineer who designs and operates scalable backend systems with system-wide thinking
 - Have experience in building and operating MSA-based systems in Kubernetes environments and processing large-scale data.
 - Specialize in creatively solving technical problems by applying computer science principles to practical work.
+- Operate multiple backend services at high leverage by designing AI-agent (Claude Code) engineering workflows, while keeping quality gates — tests, benchmarks, and zero-downtime migrations.
 
 ## Architecture design and system optimization
 - Designed RBAC/ABAC hybrid authentication system to consistently manage access control for over 10 sites
@@ -13,27 +14,50 @@
 - Contributed to securing 500 million KRW TIPS investment as an early member of seed-level startup through backend design and implementation
 - Completed urgent projects and met customer deadlines by adjusting work priorities through collaboration between planners and developers
 
-***
+## Platform-scale transitions & operations 
+- Solely own and operate **6 backend services** in an on-premise manufacturing IoT/data platform
+- Migrated a **legacy authentication scheme to a Keycloak-based standard**, with zero-downtime migration of all existing users, and established a dedicated authentication service
+- Drove a **stack-wide synchronous → asynchronous migration** to support a new agentic-AI service
+- Led a **ScyllaDB → ClickHouse migration to production** as part of a data-engineering architecture transition
+- Eliminated large-data **OOM with streaming**: cut server peak memory ** single request (previously OOM-killing a 1Gi pod) complete in **611MB**,and optimized **large-scale real-time time-series aggregation from 79s to 452ms** — all backed by memray / benchmark measurement
+- Expanded the test safety net from **72 to 958+ tests** and introduced *dapter)** across services; extracted a shared core library distributed via git subtree
+- Built an **in-house agentic-AI service from scratch** — LangGraph ReAct agent, hybrid vector + graph RAG, hexagonal architecture, MCP tool governance
 
+## AI-augmented engineering
+- Designed a **Claude Code agent methodology** (design/execution session separation, phase-by-phase build & verify) to refactor **50+ production APIs in 2 weeks — 1 rollback across 131 commits**
+- Build reusable Claude Code skills to automate repetitive operational tasks
+
+***
 <div><h1>📚 STACKS</h1></div>
 
-<div> 
+<div>
 
 ## Backend
-<img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java&logoColor=white"> 
+<img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java&logoColor=white">
 <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=Kotlin&logoColor=white">
 <img src="https://img.shields.io/badge/spring boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white">
 <img src="https://img.shields.io/badge/flask-000000?style=for-the-badge&logo=flask&logoColor=white">
-<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> 
-
+<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
 <br>
-<img src="https://img.shields.io/badge/go-00ADD8?style=for-the-badge&logo=go&logoColor=white"> 
-<img src="https://img.shields.io/badge/graphql-E10098?style=for-the-badge&logo=graphql&logoColor=white"> 
+<img src="https://img.shields.io/badge/go-00ADD8?style=for-the-badge&logo=go&logoColor=white">
+<img src="https://img.shields.io/badge/graphql-E10098?style=for-the-badge&logo=graphql&logoColor=white">
+<img src="https://img.shields.io/badge/gRPC-2D2D2D?style=for-the-badge">
+<img src="https://img.shields.io/badge/Keycloak-4D4D4D?style=for-the-badge&logo=keycloak&logoColor=white">
+<br>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white">
+<img src="https://img.shields.io/badge/ClickHouse-FFCC01?style=for-the-badge&logo=clickhouse&logoColor=black">
+<img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white">
 <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
 <img src="https://img.shields.io/badge/mongoDB-47A248?style=for-the-badge&logo=MongoDB&logoColor=white">
 <br>
 <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=MariaDB&logoColor=white">
 <img src="https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=Redis&logoColor=white">
+
+## AI / Agents
+<img src="https://img.shields.io/badge/Anthropic-191919?style=for-the-badge&logo=anthropic&logoColor=white">
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white">
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge">
 
 ## Frontend
 <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
@@ -43,10 +67,10 @@
 ## ETC
 <img src="https://img.shields.io/badge/GitHub Actions-2088FF?style=for-the-badge&logo=GitHubActions&logoColor=white">
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white">
+<img src="https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white">
 <br>
 <img src="https://img.shields.io/badge/kubernetes-326CE5?&style=for-the-badge&logo=kubernetes&logoColor=white">
 <img src="https://img.shields.io/badge/Argo-EF7B4D?style=for-the-badge&logo=Argo&logoColor=white">
 <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=C&logoColor=white">
-
 
 </div>
